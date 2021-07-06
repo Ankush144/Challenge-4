@@ -1,0 +1,703 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    border-radius:10px;
+}
+html{
+    font-size: 16px;
+}
+body{
+    background-color: rgb(219, 215, 215);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*css coding of header starts here*/
+.header{
+     /* border:1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.header .title{
+    margin-top:0.8rem;
+    margin-left: 1rem; 
+    font-size:1.3rem;
+}
+.header nav ul{
+    margin-top:1rem;
+    margin-right: 2rem;
+}
+.header ul li{
+    list-style-type:none;
+    display: inline-block;
+    margin-right:1rem;
+    margin-left:1rem;
+}
+.header ul li a{
+    color:black;
+    font-weight:600;
+    text-decoration: none;
+}
+.header ul li a:hover{
+    color:blue;
+}
+.header .icon_close{
+    display: none;
+}
+.header .icon_bar{
+    display: none; 
+    font-size: 1.5rem;
+    margin-right:1rem;
+    margin-top:0.8rem;
+}
+/*css coding of header ends here*/
+
+/* css coding of intial_impression starts here */
+.initial_imp1{
+    /* border: 1px solid black; */
+    margin-top:4rem;
+}
+.initial_imp1 p{
+    color:blue;
+    margin-left:10rem;
+    font-size:0.9rem;
+    font-weight: 600;
+}
+.initial_imp1 h1{
+    margin-left:10rem;
+    color: black;
+    font-weight:600;
+    font-size:2rem;
+}
+.initial_img{
+    /* border: 1px solid black;  */
+    margin-top:1rem;  
+}
+.initial_img  img{  
+    display: block;
+    border-radius:20px;
+    width: 90%;
+    margin: auto;
+}
+.initial_imp2{
+    /* border:1px solid black; */
+    margin-top:2rem;
+    display: flex;
+    /* background-color: white; */
+    flex-direction: column;
+    /* width: max-content; */
+}
+.initial_imp2 p{
+    margin-top:2rem;
+    color:grey;
+    margin-left:10rem;
+    font-size:0.9rem;
+    font-weight: 600;
+}
+.initial_imp2 h1{
+    margin-left:10rem;
+    color: black;
+    font-weight:600;
+    font-size:2rem;
+}
+.initial_imp2 .input{
+    margin-left:10rem;
+}
+.initial_imp2 .input input{
+    height:2.5rem;
+    border:none;
+    outline:none;
+}
+.initial_imp2 .input #email{
+    background-color:lightgrey;
+    border-radius: 10px;
+}
+.initial_imp2 .input #join_button{
+    width:5rem;
+    border-radius: 10px;
+    background-color:#00a2ed;
+    outline:none;
+    color:white;
+    margin-left:1rem;
+}
+.initial_imp2 .input #join_button:hover{
+    border:1px solid blueviolet;
+}
+.initial_imp2 .input #email::placeholder{
+    color:grey;
+    position: relative;
+    left:1rem;
+}
+/* css coding of intial_impression ends here */
+
+/* css coding of services starts here */
+.services {
+    /* border:1px solid #000; */
+    margin-top:5rem;
+}
+.services h1{
+    margin-left:4.5rem;
+    color: black;
+    font-weight:600;
+    font-size:2rem;
+}
+.boxes{
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+}
+.box{
+    background-color: white;
+    border-radius: 10px;
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box .fa{
+    font-size: 1.4rem;
+    width: fit-content;
+    color:white;
+    padding:10px;
+    border-radius:5px;
+    margin-left:1rem;
+    margin-top:1rem;
+}
+.box h2{
+    margin:1rem;
+}
+.box p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box1 .fa{
+    background-color:#00a2ed;
+}
+.box2 .fa{
+ background-color:rgb(141, 185, 73);
+}
+.box3 .fa{
+    background-color:rgb(250, 0, 0);
+}
+.box2{
+    margin-right:4rem;
+    margin-left:4rem;
+}
+.box .get_btn input:hover{
+    border:1px solid blueviolet;
+}
+.box .get_btn input{
+    background-color: #00a2ed;
+    outline:none;
+    border:none;
+    color:white;
+    width:5rem;
+    height:2rem;
+    border-radius:10px;
+    margin:1rem;
+}
+.box1 .get_btn input,.box3 .get_btn input{
+ background-color: rgb(206, 197, 197);
+ color:grey;
+}
+/* css coding of services ends here */
+/* css coding of samples */
+.samples{
+  /* border:1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top:5rem;
+}
+.samples p{
+    font-size: 0.7rem;
+    color:grey;
+}
+.samples img{
+    width: inherit;
+    border-radius: 1rem;
+    width: 25rem;
+    margin-top: 5rem;
+}
+.samples .column1{
+  display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+.samples .column2{
+    display: flex;
+    flex-direction: column;
+}
+.samples #seemore{
+    margin-top:4rem;
+    margin-left:16rem;
+    text-decoration: none;
+}
+/* css coding of samples */
+/* css coding of employee starts here */
+.employee{
+    margin-top:5rem;
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.employee .team_intro{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 6rem;
+    padding:2rem;
+    /* width: max-content; */
+}
+.employee .team_images{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    /* width: max-content; */
+}
+.employee .team_images .girl{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+.employee .team_images .girl img{
+    height:15rem;
+    margin-top: 50%;
+}
+.employee .team_images .boys{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+.employee img{
+    border-radius: 20px;
+    margin:1rem;
+    width:15rem;
+}
+.founder{
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    display: block;
+    margin:auto;
+    margin-top:3rem;
+}
+.founder .quote{
+    /* border:1px solid rgb(12, 2, 2); */
+    width:max-content;
+}
+.founder .coupan{
+    width:max-content;
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction:row;
+    margin-top:1rem;
+}
+.founder .coupan img{
+    width: 5rem;
+    border-radius: 10px;
+    margin-right:1rem;
+}
+/* css coding of employee starts here */
+
+/* css coding of footer :starts here */
+.footer{
+    display: flex;
+    flex-direction:column;
+    margin-top:5rem;
+    background-color:rgb(11, 11, 44);
+    color:white;
+    /* font-family:; */
+}
+.footer .nav_contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border:1px solid black; */
+    margin-top: 3rem;
+}
+.footer ul{
+    margin-left:4rem;
+    list-style-type:none;
+}
+.footer ul li{
+    margin-top:.5rem;
+}
+
+.footer ul li a{
+    text-decoration:none;
+    color:white;
+}
+.footer ul li a:hover{
+        text-decoration: underline;
+}
+.footer .contact .icons{
+    font-size: 1.5rem;
+    color:white;
+}
+.footer .credit{
+    text-align: center;
+    /* border:1px solid black; */
+    margin-top:5rem;
+}
+.footer .nav_contact .email_bar{
+    /* border: 1px solid white; */
+    display: block;
+    width: max-content;
+    height: max-content;
+    margin-top: .5rem;
+    margin-right:5rem;
+}
+.footer .nav_contact .email_bar .inputs{
+    border: 1px solid white; 
+    background-color: white;
+    border-radius: 10px;
+}
+.footer .nav_contact .email_bar input{
+    outline:none;
+    border:none;
+    height: 2rem;
+    border-radius:10px;
+}
+.footer .nav_contact .email_bar .btn{
+    width:4rem;
+    background-color: #00a2ed;
+    color:white;
+    padding:2px;
+}
+.footer .nav_contact .email_bar .btn:hover{
+    border:1px solid blue;
+}
+.footer .nav_contact .email_bar .bar::placeholder{
+    color:grey;
+    position: relative;
+    left:1rem;
+}
+/* css coding of footer :ends here */
+
+
+
+/* @media only screen and (max-width: 949px){
+    .header nav ul{
+        display: none;
+    }
+    .header .icon_bar{
+        display:flex;
+        flex-direction: row;
+        font-size: 1.5em;
+    }
+    .employee .team_intro{
+        margin-right:0rem;
+    }
+   
+} */
+@media only screen and (max-width: 849px) and 
+(min-width:699px){
+    .header nav ul{
+        display: none;
+    }
+    .header .icon_bar{
+        display:flex;
+        flex-direction: row;
+        font-size: 1.5em;
+    }
+    .employee .team_intro{
+        margin-right:0rem;
+        text-align:left;
+    }
+    .samples img{
+        width: 20rem;
+    }
+    .services .box2{
+        margin:0;
+    }
+    .employee{
+        flex-direction: column;
+    }
+    .employee .team_images{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+    }
+    .founder .quote{
+            display: flex;
+            width: fit-content;
+    }
+    /* new coding of alignment starts here */
+}
+@media only screen and (max-width:699px) and 
+(min-width:567px){
+    .header nav ul{
+        display: none;
+    }
+    .header .icon_bar{
+        display:flex;
+        flex-direction: row;
+        font-size: 1.5em;
+    }
+    .employee .team_intro{
+        margin-right:0rem;
+        text-align:left;
+    }
+    .samples img{
+        width: 20rem;
+    }
+    .services .box2{
+        margin:0;
+    }
+    .employee{
+        flex-direction: column;
+    }
+    .employee .team_images{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+    }
+    .founder .quote{
+            display: flex;
+            width: fit-content;
+    }
+    .services .boxes{
+        flex-direction: column;
+        width: max-content;
+        margin:auto;
+    }
+    .services .box2{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .samples {
+        flex-direction: column;
+        width: max-content;
+        margin:auto;
+        margin-top:3rem;
+    }
+    .footer .nav_contact{
+        flex-direction: column;
+    }
+    .footer .nav_contact .contact{
+        margin-top:2rem;
+        margin-left:4rem;
+    }
+    .footer .nav_contact .email_bar{
+        margin-top:2rem;
+        margin-left:4rem;
+    }
+    /* new coding of alignment starts here */
+}
+@media only screen and (max-width:568px)
+and (min-width:410px){
+    .initial_imp1 h1{
+        font-size:1.5rem;
+        margin:1rem;
+    }
+    .initial_imp1 p{
+        font-size:0.7rem;
+        margin:1rem;
+    }
+    .initial_imp2 h1{
+        font-size:1.5rem;
+        margin:1rem;
+    }
+    .initial_imp2 p{
+        font-size:0.7rem;
+        margin:1rem;
+    }
+    .initial_imp2 input{
+        margin-left:-10rem;
+    }
+    h1{
+        font-size:1.5rem;
+    }
+    .header nav ul{
+        display: none;
+    }
+    .header .icon_bar{
+        display:flex;
+        flex-direction: row;
+        font-size: 1.5em;
+    }
+    .employee .team_intro{
+        margin-right:0rem;
+        text-align:left;
+    }
+    .samples img{
+        width: 20rem;
+    }
+    .services .box2{
+        margin:0;
+    }
+    .employee{
+        flex-direction: column;
+    }
+    .employee .team_images{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+    }
+    .employee .team_images img{
+        width: 10rem;
+    }
+    .founder .quote{
+            display: flex;
+            width: fit-content;
+    }
+    .services .boxes{
+        flex-direction: column;
+        width: max-content;
+        margin:auto;
+    }
+    .services .box2{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .samples {
+        flex-direction: column;
+        width: max-content;
+        margin:auto;
+        margin-top:3rem;
+    }
+    .footer .nav_contact{
+        flex-direction: column;
+    }
+    .footer .nav_contact .contact{
+        margin-top:2rem;
+        margin-left:4rem;
+    }
+    .footer .nav_contact .email_bar{
+        margin-top:2rem;
+        margin-left:4rem;
+    }
+    
+    /* new coding of alignment starts here */
+}
+@media only screen and (max-width:411px)
+and (min-width:0px){
+    .initial_imp1 h1{
+        font-size:1.5rem;
+        margin:1rem;
+    }
+    .initial_imp1 p{
+        font-size:0.7rem;
+        margin:1rem;
+    }
+    .initial_imp2 h1{
+        font-size:1.5rem;
+        margin:1rem;
+    }
+    .initial_imp2 p{
+        font-size:0.7rem;
+        margin:1rem;
+    }
+    .initial_imp2 input{
+        margin-left:-10rem;
+    }
+    h1{
+        font-size:1.5rem;
+    }
+    .header nav ul{
+        display: none;
+    }
+    .header .icon_bar{
+        display:flex;
+        flex-direction: row;
+        font-size: 1.5em;
+    }
+    .employee .team_intro{
+        margin-right:0rem;
+        text-align:left;
+    }
+    .samples img{
+        width: 15rem;
+    }
+    .services .box2{
+        margin:0;
+    }
+    .employee{
+        flex-direction: column;
+    }
+    .employee .team_images{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+    }
+    .employee .team_images img{
+        width: 8rem;
+        height: 8rem;
+    }
+    .founder .quote{
+            display: flex;
+            width: fit-content;
+    }
+    .services .boxes{
+        flex-direction: column;
+        width: max-content;
+        margin:auto;
+    }
+    .services .box2{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .samples {
+        flex-direction: column;
+        width: max-content;
+        margin:auto;
+        margin-top:3rem;
+        display: block;
+        margin: auto;
+        width: fit-content;
+    }
+    .samples  .cop{
+        margin-left: 2rem;
+    }
+    .footer .nav_contact{
+        flex-direction: column;
+    }
+    .footer .nav_contact .contact{
+        margin-top:2rem;
+        margin-left:4rem;
+    }
+    .footer .nav_contact .email_bar{
+        margin-top:2rem;
+        margin-left:4rem;
+    }
+    
+    /* new coding of alignment starts here */
+}
+.newclass{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.newclass h3{
+    display:none;
+}
+.newclass nav ul{
+    display:flex;
+    width:20rem;
+    /* background-color: khaki; */
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    height:100vh;
+    transition: 3sec;
+}
+.newclass nav ul li{
+    margin-top:3rem;
+}
+.newclass .icon_bar{
+    display: none;
+
+}
+.newclass .icon_close{
+    display:block;
+    font-size: 2rem;
+    /* border: 1px solid #cccccc; */
+    cursor: pointer;
+}
